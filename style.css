@@ -10,3 +10,18 @@ img:hover {
 height:500px
 }
 }
+nav {
+  list-style-type: none;
+  width: 100%;
+  background-color: lightblue;
+  position: fixed
+}
+li a {
+  text-decoration: none;
+  display: block;
+  padding: 25px 40px;
+  float: left;
+}
+li a:hover {
+  background-color: grey
+}
