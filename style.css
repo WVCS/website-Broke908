@@ -1,15 +1,16 @@
-body {
 h1 {
   color:#13293D;
-   font-family: "Lucida Console", "Courier New", monospace; }
+   font-family: "Lucida Console", "Courier New", monospace; 
+letter-spacing: 2px
+}
 body{
   background-color: grey
 }
-img:hover {
-  width:500x;
-height:500px
+img: {
+  width:500px;
+border-radius: 10px
 }
-}
+
 nav {
   list-style-type: none;
   width: 100%;
@@ -24,4 +25,5 @@ li a {
 }
 li a:hover {
   background-color: grey
+  color: tan
 }
